@@ -1,0 +1,11 @@
+{
+  "name": "timofeynovv-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Личный сайт TimofeyNovv — Java, Spring, C++, ML & Data Analytics",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

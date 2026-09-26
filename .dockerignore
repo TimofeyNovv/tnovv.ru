@@ -1,0 +1,11 @@
+**
+!Dockerfile
+!Caddyfile
+!index.html
+!styles.css
+!script.js
+!assets/
+!assets/**
+assets/images/avatar.png
+assets/images/avatar-placeholder.svg
+assets/images/FOREST-GENERATION.md

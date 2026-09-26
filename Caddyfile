@@ -1,0 +1,6 @@
+progr.puhlic.ru {
+	root * /srv
+	encode zstd gzip
+	header Cache-Control "no-cache"
+	file_server
+}
