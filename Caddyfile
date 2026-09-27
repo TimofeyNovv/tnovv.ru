@@ -1,4 +1,4 @@
-progr.puhlic.ru {
+tnovv.ru {
 	root * /srv
 	encode zstd gzip
 	header Cache-Control "no-cache"
