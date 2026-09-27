@@ -12,10 +12,10 @@
     },
     en: {
       title: "TimofeyNovv — developer",
-      description: "TimofeyNovv — backend developer. Java, Spring, C++. Learning ML & Data Analytics. National Technology Olympiad prizewinner.",
+      description: "TimofeyNovv — backend developer. Java, Spring, C++. Learning ML & Data Analytics. National Technology Olympiad prize winner.",
       skip: "Skip to content", home: "TimofeyNovv — back to top", language: "Website language",
       profiles: "My profiles",
-      achievements: "Achievements", award: "NTO prizewinner",
+      achievements: "Achievements", award: "NTO prize winner",
       awardProfile: "Mobile App Development", awardName: "National Technology Olympiad",
       fog: "Mist", pause: "Pause the mist", play: "Play the mist animation",
     },
@@ -26,8 +26,8 @@
     get(key) { try { return localStorage.getItem(key); } catch { return null; } },
     set(key, value) { try { localStorage.setItem(key, value); } catch { /* Storage is optional. */ } },
   };
-  // Russian is the default on every new page load, regardless of browser language.
-  let language = "ru";
+  // English is the default on every new page load, regardless of browser language.
+  let language = "en";
   let paused = motionPreference.matches || storage.get("portfolio-paused") === "true";
   const pauseButton = document.querySelector(".motion-toggle");
   const languageButtons = document.querySelectorAll(".language-option");
@@ -69,5 +69,5 @@
   });
   document.addEventListener("visibilitychange", updateMotion);
   document.querySelector("#year").textContent = new Date().getFullYear();
-  setLanguage("ru");
+  setLanguage(language);
 })();
