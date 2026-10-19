@@ -3,20 +3,22 @@
   const translations = {
     ru: {
       title: "TimofeyNovv — разработчик",
-      description: "TimofeyNovv — backend-разработчик. Java, Spring, C++. Изучаю ML и Data Analytics. Призёр НТО.",
+      description: "TimofeyNovv — backend-разработчик. Java, Spring, C++. Изучаю ML и Data Analytics. Победитель хакатона PROD и призёр НТО.",
       skip: "Перейти к содержимому", home: "TimofeyNovv — в начало", language: "Язык сайта",
       profiles: "Мои профили",
       achievements: "Достижения", award: "Призёр НТО",
       awardProfile: "Разработка мобильных приложений", awardName: "Национальная технологическая олимпиада",
+      prodAward: "Победитель хакатона PROD", prodResult: "Санкт-Петербург · 2026/27",
       fog: "Туман", pause: "Приостановить туман", play: "Включить анимацию тумана",
     },
     en: {
       title: "TimofeyNovv — developer",
-      description: "TimofeyNovv — backend developer. Java, Spring, C++. Learning ML & Data Analytics. National Technology Olympiad prize winner.",
+      description: "TimofeyNovv — backend developer. Java, Spring, C++. Learning ML & Data Analytics. PROD Hackathon winner and National Technology Olympiad prize winner.",
       skip: "Skip to content", home: "TimofeyNovv — back to top", language: "Website language",
       profiles: "My profiles",
       achievements: "Achievements", award: "NTO prize winner",
       awardProfile: "Mobile App Development", awardName: "National Technology Olympiad",
+      prodAward: "PROD Hackathon winner", prodResult: "Saint Petersburg · 2026/27",
       fog: "Mist", pause: "Pause the mist", play: "Play the mist animation",
     },
   };
